@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Uso de JQuery</title>
+
+<script type="text/javascript" src="../js/jquery.js"></script>
+
+<script type="text/javascript">
+/*Para usar a biblioteca de JQuery, é necessário usar um caracter especial para fazer a chamada ($) ou JQuery*/
+
+	
+$(document).ready(function(){
+	$('#principal').append('<p> Texto Novo </p>');
+	$('#primeiro').click(function(){
+		$('div').append('<h2> Estou aqui! </h2>');
+
+	})
+});
+
+
+
+
+</script>
+
+
+</head>
+<body>
+
+<header>
+	<h1>Págima com JQuery</h1>
+</header>
+
+<main>
+	
+	<section id="principal">
+		<div>
+
+			<button id="primeiro"> primeiro </button><br>
+			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium facere, aliquam maxime, quaerat illum molestiae! Error neque ipsam, laboriosam autem beatae eveniet? Doloribus ipsa laborum maxime accusamus aut voluptate, facere.</div>
+			<div>Aut expedita ullam, quia harum eaque, culpa quibusdam odio at quidem quam facere ratione doloremque libero similique molestiae ipsa nulla, in! Natus alias, debitis quasi dolorem ipsam eos cupiditate commodi.</div>
+			<div>Iusto iste culpa eos animi, quae esse similique reprehenderit! Inventore ex voluptatibus saepe quo perferendis, optio porro velit amet, nihil delectus recusandae maiores iure unde, explicabo soluta. Aspernatur, deserunt, quia.</div>
+		</div>
+		<div>
+			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum inventore aliquid quos assumenda dicta iste illo, fuga fugiat dolore asperiores consectetur veritatis tempore voluptatem excepturi, sed fugit doloremque quisquam iusto.</div>
+			<div>Iste reiciendis, nostrum laudantium autem, aut recusandae explicabo veniam nemo aliquid quis reprehenderit consectetur. Suscipit provident labore atque corporis autem ipsa sunt beatae a. Aperiam perferendis esse aspernatur, asperiores consequuntur.</div>
+			<div>Consequuntur totam nam unde, nesciunt. Rerum natus odio architecto, dicta, nobis aliquam aliquid asperiores vel ab quos voluptatibus facilis obcaecati minima, similique praesentium eligendi cumque aperiam cupiditate quasi quia iusto!</div>
+		</div>
+	</section>
+
+</main>
+	
+
+</body>
+</html>
